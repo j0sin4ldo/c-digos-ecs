@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teste.css">
+    <title>Document</title>
+</head>
+<body>
+<!--ul é pra criar uma lista não ordenada, ol é pra criar uma ordenada.
+dentro do ul ou ol a gente sempre põe o li-->
+<p>esse é o meu time pokémon, montado baseado somente nos meus pokémons favoritos <br>
+todos os pokemons são da geração 1 até a 4 no máximo, mas isso não significa que <br>
+eu não goste das outras gerações que vem depois, porque a maioria delas tem muitos <br>
+pokémons legais e uma boa lore e um mapa legal.</p>
+
+    <div class="lista time">
+        <h1><mark>lista do meu time pokémon</mark></h1>
+        <ul>
+            <a href="https://pokemondb.net/pokedex/kyogre"><li>kyogre</li></a>
+            <a href="https://pokemondb.net/pokedex/luxray"><li>luxray</li></a>
+            <a href="https://pokemondb.net/pokedex/gengar"><li>gengar</li></a>
+            <a href="https://pokemondb.net/pokedex/arcanine"><li>arcanine</li></a>
+            <a href="https://pokemondb.net/pokedex/gliscor"><li>gliscor</li></a>
+            <a href="https://pokemondb.net/pokedex/glaceon"><li>glaceon</li></a>
+        </ul>
+    </div>
+    
+    <!--table serve pra criar uma tabela, border serve pra criar as bordas.
+    tr é pra criar as linhas e td é pra coluna-->
+
+<hr>
+    <div class="tabela time">
+        <h1><mark>meu time pokémon</mark></h1>
+        <table border="3px solid black">
+            <tr>
+                <td>
+                    <a href="https://pokemondb.net/pokedex/kyogre"><img src="kyogre.jpg" height="175" width="250"></a></p>
+                </td>
+                <td>
+                    <a href="https://pokemondb.net/pokedex/luxray"><img src="luxray.jpg" height="175" width="250"></a></p>
+                </td>
+                <td>
+                    <p><a href="https://pokemondb.net/pokedex/gengar"><img src="gengar.jpg" height="175" width="250"></a></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><a href="https://pokemondb.net/pokedex/arcanine"><img src="arcanine.jpg" height="175" width="250"></a></p>
+                </td>
+                <td>
+                    <p><a href="https://pokemondb.net/pokedex/gliscor"><img src="gliscor.jpg" height="175" width="250"></a></p>
+                </td>
+                <td>
+                    <p><a href="https://pokemondb.net/pokedex/glaceon"><img src="glaceon.jpg" height="175" width="250"></a></p>
+                </td>
+            </tr>
+        </table>
+        
+    
+    </div>
+    
+<hr>
+<h2>cadastre-se aqui</h2>
+    <a href=""></a>
+<form>
+    <label><b>seu nome:</b></label>
+        <input type="text" placeholder="digite seu nome aqui"><br>
+
+    <label><b>email:</b></label>
+        <input type="email" placeholder="digite seu email aqui"><br>
+
+    <label><b>você gostou do time?</b></label><br>
+        <input type="checkbox">sim
+        <input type="checkbox">não <br>
+
+    <label for="pokemon"><b>qual seu pokemon favorito do time?</b></label>
+        <select>
+            <option>-</option>
+            <option>kyogre</option>
+            <option>luxray</option>
+            <option>gengar</option>
+            <option>arcanine</option>
+            <option>gliscor</option>
+            <option>glaceon</option>
+        </select>
+</form>
+</body>
+</html>
