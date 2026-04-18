@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(rgb(131, 28, 145),rgb(46, 17, 110))
+}
+p{
+    font-family: "arial";
+    color: white;
+}
+h1{
+    font-family: "arial";
+    color: white;
+    font-size: 50px;
+}
+h3{
+    font-family: "arial";
+    color: white;
+    font-size: 30px;
+}
+img{
+    display: block ;
+    margin:0 auto;
+}
+ul{
+    font-family: "arial";
+    color: white;
+    font-size: 30px;
+}
